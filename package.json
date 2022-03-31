@@ -1,6 +1,6 @@
 {
-  "name": "@sentry/netlify-build-plugin",
-  "version": "1.1.1",
+  "name": "spill-netlify-build-plugin",
+  "version": "1.2.1",
   "description": "The Sentry Netlify build plugin automatically uploads source maps and notifies Sentry of new releases being deployed to your site after it finishes building in Netlify.",
   "main": "index.js",
   "keywords": [
@@ -22,7 +22,8 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@sentry/cli": "^1.52.3"
+    "@sentry/cli": "^1.52.3",
+    "node-glob": "^1.2.0"
   },
   "engines": {
     "node": ">=8.12.0"
